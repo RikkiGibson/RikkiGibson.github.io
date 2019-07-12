@@ -1,0 +1,48 @@
+
+.container {
+    width: 400px;
+}
+
+.header-container {
+    position: relative;
+}
+
+.fixed-headers {
+    position: absolute;
+    background-color: white;
+}
+
+.scrolling-headers {
+    overflow: hidden;
+}
+
+.body-container {
+    display: flex;
+    flex-flow: row;
+    overflow: scroll;
+    height: 400px;
+    position: relative;
+}
+
+.fixed-columns {
+    position: absolute;
+    background-color: white;
+}
+
+table {    
+    table-layout: fixed;
+    border-spacing: 0;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td > div, th > div {
+    width: 80px;
+}
+
+thead td {
+    font-weight: bold;
+}
